@@ -1,0 +1,27 @@
+{
+  "name": "first-website",
+  "version": "1.0.0",
+  "description": "a first web application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GiovanniGabbolini/First-Website.git"
+  },
+  "author": "giovanni gabbolini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiovanniGabbolini/First-Website/issues"
+  },
+  "homepage": "https://github.com/GiovanniGabbolini/First-Website#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "mongodb": "^3.1.3"
+  },
+  "engines": {
+    "node": "10.8.0"
+  }
+}

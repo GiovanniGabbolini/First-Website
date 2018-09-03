@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+ website:
+  build: ./website
+  ports:
+   - 49160:8080
+  volumes:
+   - ./website:/usr/src/app
+ mongo:
+  image: mongo:latest
+  ports:
+    - 27017:27017
+
